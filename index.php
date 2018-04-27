@@ -12,7 +12,7 @@
 <head>
 		<title> login teste   </title>
 		<meta charset="utf-8">	</meta>
-		<link rel="stylesheet"href="bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="css/estilo.css"/>
 		<link rel="shortcut icon" href="caminhodoarquivo/favicon.ico" />
 </head>

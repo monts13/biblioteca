@@ -1,0 +1,54 @@
+html, body{
+  height: 100%;
+}
+body{
+	background-image: url('fundo.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	opacity: 100;
+	
+}
+a{
+color: black;
+text-decoration: underline;
+
+}
+.btn-cadastrar{
+	margin-top: 30px;
+}
+
+.formulario{
+	text-align: center;
+	width: 400px; 
+	margin: 80px auto 0 auto; 
+	padding:30px;
+	border: 20px;
+	border-radius: 30px;
+	background-color: rgba(136, 183, 186, .7);
+	box-shadow: 0 0 3px 8px rgba(157,150,160,.7);
+
+}
+h1{
+	color:#ddd1cc;
+	font-size: 50px;
+    font-family: Snap ITC ;	
+}
+
+#meio{
+	background-color:#ffff;
+	width: 400px; 
+	height: 150px;
+}
+
+#botaologin{
+	position: relative;
+}
+#botao2{
+	width: 400px;  
+	left: 890px;
+	position: relative;
+}
+input{
+text-align: center;
+
+}

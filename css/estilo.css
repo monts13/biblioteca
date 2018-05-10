@@ -59,8 +59,6 @@ position:static;
 
 
 }
-.btn-Guardar{
-
-right: 200px;
-
+#guardar{
+	position: static;
 }

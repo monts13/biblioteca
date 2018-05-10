@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head>
-<body>
-
-</body>
+	<head>
+		<title>cadastre-se</title>
+	</head>
+	<body>
+		<h1> Seja Bem vindo  </h1>	
+	</body>
 </html>

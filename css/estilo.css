@@ -2,7 +2,7 @@ html, body{
   height: 100%;
 }
 body{
-	background-image: url('fundo.jpg');
+	background-image: url('fundo2.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	opacity: 100;
@@ -10,11 +10,12 @@ body{
 }
 a{
 color: black;
-text-decoration: underline;
+text-decoration: none;
 
 }
 .btn-cadastrar{
 	margin-top: 30px;
+	
 }
 
 .formulario{
@@ -50,5 +51,16 @@ h1{
 }
 input{
 text-align: center;
+
+}
+#esqueci{
+
+position:static;
+
+
+}
+.btn-Guardar{
+
+right: 200px;
 
 }

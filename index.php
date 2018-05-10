@@ -22,7 +22,7 @@
 
     </ol>
 		<div class="container">
-			<button class="btn btn-info pull-right btn-cadastrar">cadastrar</button>	
+	<a href="cadastro.html" class="btn btn-info pull-right btn-cadastrar" >cadastrar</a>	
 	          
 				<div class="formulario">
 					<form method="POST">	
@@ -37,8 +37,12 @@
 						<div id="botao-login">
 							<button class="btn btn-success" name="enviar" type="submit"> Login </button>
 						</div>
-													<a>esqueçeu a senha ?</a>
+												<div id="esqueci">
+													
+											<button " class= "btn btn-danger" type="submit ">esqueçeu a senha ?</button>
 
+												</div>
+													
 					</form>
 				</div>
 					</div>

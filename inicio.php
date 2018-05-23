@@ -1,3 +1,9 @@
+<?php
+  include_once("controller/LoginController.class.php");
+  $controle  = new LoginController();
+  $controle->verificaLogado();
+  
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -10,27 +16,27 @@
 		
 		
 		<style>
-.vertical-menu {
-    width: 200px;
-}
+      .vertical-menu {
+          width: 200px;
+      }
 
-.vertical-menu a {
-    background-color: #eee;
-    color: black;
-    display: block;
-    padding: 12px;
-    text-decoration: none;
-}
+      .vertical-menu a {
+          background-color: #eee;
+          color: black;
+          display: block;
+          padding: 12px;
+          text-decoration: none;
+      }
 
-.vertical-menu a:hover {
-    background-color: #ccc;
-}
+      .vertical-menu a:hover {
+          background-color: #ccc;
+      }
 
-.vertical-menu a.active {
-    background-color: #0000FF;
-    color: white;
-}
-</style>
+      .vertical-menu a.active {
+          background-color: #0000FF;
+          color: white;
+      }
+  </style>
 </head>
 <body>
 

@@ -11,6 +11,17 @@
 			return $usuario;
 			
 		}
+
+		public function salvarUsuario($usuario){
+			$sql = "INSERT INTO tb_administrador VALUES ('', :nome, :login, :senha)";
+			$sqlPreparado = Conexao::meDeAConexao()->prepare($sql);
+			$sqlPreparado->bindValue(":nome",$usuario->getNome());
+			$sqlPreparado->bindValue(":login",$usuario->getLogin());
+			$sqlPreparado->bindValue(":senha",$usuario->getSenha());
+			$resposta = $sqlPreparado->execute();
+			return $sqlPreparado->rowCount();
+			
+		}
 		public function transformaUsuarioDoBancoEmObjeto($dadosDoBanco){
 			$usuario = new Usuario();
 			$usuario->setIdUsuario($dadosDoBanco['id_administrador']);

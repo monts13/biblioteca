@@ -15,6 +15,7 @@ text-decoration: none;
 }
 .btn-cadastrar{
 	margin-top: 30px;
+	text-align: left 30px; 
 	
 }
 
@@ -62,4 +63,23 @@ position:static;
 #guardar{
 	right: 200px;
 	position: static;
+}
+#corpo{
+	background-image: url('bookshelf.jpg');
+}
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
 }

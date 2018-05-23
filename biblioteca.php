@@ -16,6 +16,21 @@
 
 	$teste = getConnection();
 	print_r($teste["mensagem"]);
+
+
+
+	header("Content-type: text/html; charset=utf-8");
+if(isset($_POST['nome']) && isset($_POST['senha']) && isset($_POST['email'])){
+
+	require('bd_biblioteca.php');
+	
+	if($valida = mysqli_query($mysqli, "INSERT INTO usuarios (UsrNome, UsrSenha, UsrEmail) VALUES ('$_POST[nome]', '$_POST[senha]', '$_POST[email]')")){
+			header('Location: ../cadastro.html');
+		}else{
+			echo "Não foi possivel criar o usuário...<br><a href='../index.html>Index</a>'";
+			
+		}
+
 	
 	
 	

@@ -16,6 +16,7 @@ text-decoration: none;
 .btn-cadastrar{
 	margin-top: 30px;
 	text-align: left 30px; 
+	font-family: cursive;
 	
 }
 
@@ -44,11 +45,13 @@ h1{
 
 #botaologin{
 	position: relative;
+	font-family: cursive;
 }
 #botao2{
 	width: 400px;  
 	left: 890px;
 	position: relative;
+	font-family: cursive;
 }
 input{
 text-align: center;
@@ -57,12 +60,14 @@ text-align: center;
 #esqueci{
 
 position:static;
+font-family: cursive;
 
 
 }
 #guardar{
 	right: 200px;
 	position: static;
+	font-family: cursive;
 }
 #corpo{
 	background-image: url('bookshelf.jpg');
@@ -82,4 +87,15 @@ position:static;
 .vertical-menu a.active {
     background-color: #4CAF50;
     color: white;
+}
+.form-group{
+	font-family: cursive;
+}
+.container{
+	font-family: cursive;
+}
+.modal-header{
+	font-family: cursive;
+	font-size: 20px;
+	text-align: center;
 }

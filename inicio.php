@@ -47,7 +47,8 @@
   <a href="#">drama</a>
   <a href="#">romanticos</a>
   <a href="#">religião</a>
-  <a href="#">Link 4</a>
+  <a href="#">Adicionar livros</a>
+
 </div>
 
 
@@ -61,5 +62,14 @@
 
 
 		</div>
+    <form>
+     <input type="submit" name="sair" placeholder="Sair">
+     <li><a href="#">Pagina Inicial</a></li>
+     <li><a href="index.php">Sair</a></li>
+
+
+
+
+    </form>
 	</body>
 </html>

@@ -55,9 +55,9 @@
 					</div>
 					<div id="botao-login">
 						<button class="btn btn-success btn-block" name="enviar" type="submit"> Login </button>
-					</div>
+					</div><br>
 					<div id="esqueci">
-						<button class= "btn btn-danger" type="submit ">esqueçeu sua senha ?</button>
+						<button class= "btn btn-danger" type="submit ">Esqueceu sua senha ?</button>
 					</div>
 													
 				</form>
@@ -68,7 +68,7 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
-						<h5 class="modal-title">Modal title</h5>
+						<h5 class="modal-title">Casdatre-se</h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
 						</button>
@@ -79,10 +79,16 @@
 								<input type="text" name="cnome" id="nome" placeholder="Digite seu nome" class="form-control">
 							</div>
 							<div class="form-group">
-								<input type="password" name="clogin" id="login" placeholder="Digite seu login" class="form-control">
+								<input type="text" name="clogin" id="login" placeholder="Digite seu login" class="form-control">
+							</div>
+							<div class="form-group">
+								<input type="password" name="csenha" id="senha" placeholder="Digite sua senha" class="form-control">
 							</div>
 							<div class="form-group">
 								<input type="password" name="csenha" id="senha" placeholder="Repita sua senha" class="form-control">
+							</div>
+							<div class="form-group">
+								<input type="text" name="cemail" id="email" placeholder="Digite seu e-mail" class="form-control">
 							</div>
 						</div>
 						<div class="modal-footer">

@@ -47,5 +47,11 @@
 			$usuario->setSenha($dadosDoForm['csenha']);
 			return $usuario;
 		}
+
 	}
+		session_start(); 
+
+		unset($_SESSION['nome']);
+		unset($_SESSION['codigo']);
+		header("location: index.php");
 ?>

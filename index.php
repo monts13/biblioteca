@@ -84,10 +84,6 @@
 							<div class="form-group">
 								<input type="password" name="csenha" id="senha" placeholder="Digite sua senha" class="form-control">
 							</div>
-							<div class="form-group">
-								<input type="password" name="csenha" id="senha" placeholder="Repita sua senha" class="form-control">
-							</div>
-							<div class="form-group">
 								<input type="text" name="cemail" id="email" placeholder="Digite seu e-mail" class="form-control">
 							</div>
 						</div>

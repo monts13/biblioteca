@@ -2,10 +2,10 @@
 class Conexao{
 	private static $conexao;
 	private function __construct(){
-		$usuarioBanco 		= "root";
-		$senhaBanco 		= "";
-		$nomeBanco 			= "bd_biblioteca";
-		$enderecoLinkHost = "localhost";
+		$usuarioBanco 		= "teren671_admin";
+		$senhaBanco 		= "152535";
+		$nomeBanco 			= "teren671_bd_biblioteca";
+		$enderecoLinkHost = "terenciani.com.br";
 		
 		try{
 			self::$conexao = new PDO("mysql:host=$enderecoLinkHost;dbname=$nomeBanco", $usuarioBanco, $senhaBanco);

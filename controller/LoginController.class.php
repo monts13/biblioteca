@@ -45,6 +45,7 @@
 			$usuario->setNome($dadosDoForm['cnome']);
 			$usuario->setLogin($dadosDoForm['clogin']);
 			$usuario->setSenha($dadosDoForm['csenha']);
+			$usuario->setEmail($dadosDoForm['cemail']);
 			return $usuario;
 		}
 
